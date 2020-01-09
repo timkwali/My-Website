@@ -28,3 +28,27 @@ only screen and (                min-resolution: 2dppx) {
     }
 }
 
+@media(max-width: 991px) {
+  #personal-summary, #why-decagon{
+    height: 75vh;
+  }
+
+  #personal-summary {
+    background: rgba(154, 205, 50, 0.9);
+  }
+
+  #why-decagon {
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  /***ABOUT ME SECTION***/
+  .about-us-box-img img {
+    border-radius: 4px;
+    height: 160%;
+    width: 100%;
+  }
+}
+
+/***ABOUT ME SECTION***/
+
+

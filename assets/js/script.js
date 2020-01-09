@@ -22,5 +22,21 @@ jQuery(document).ready(function() {
     scroll_to($(this), $("nav").outerHeight());
   });
 
-  
+
+  ////HOME PAGE 
+  //set background
+  $(".top-content").backstretch("assets/images/homeBG.jpeg");
+  //personal info
+  $("#personal").on("click", function() {
+    $("#p").toggle();
+    $("#d").hide();
+  })
+  $("#decagon").on("click", function() {
+    $("#d").toggle();
+    $("#p").hide();
+  })
 });
+
+///WORK/PORTFOLIO
+//set background
+//$("#portfolio").backstretch("assets/images/portfolioBG.jpeg");

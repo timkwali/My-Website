@@ -22,14 +22,27 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
   
     <style>
-    .navbar-brand {
-      background: url(assets/images/decagon-logo.jpg) left center no-repeat;
-}
+      .navbar-brand {
+        background: url(assets/images/decagon-logo.jpg) left center no-repeat;
+      }
+       
+      /*
+      .portfolio-container {
+        background: url(assets/images/portfolioBG.jpeg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      } */
+
+      .portfolio-container {
+        background: rgba(170, 226, 226, 0.2);
+      }
     </style>
   </head>
 
   <body>  
-    <!--navigation menu-->
+    <!--NAVIGATION MENU-->
     <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
       <div class="container">
         <a class="navbar-brand" href="index.html">Timring's</a>
@@ -42,26 +55,270 @@
               <a class="nav-link scroll-link" href="#home">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link scroll-link" href="#">ABOUT ME</a>
+              <a class="nav-link scroll-link" href="#aboutMe">ABOUT ME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link scroll-link" href="#">GALLERY</a>
+              <a class="nav-link scroll-link" href="#work">WORK</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link scroll-link" href="#">CONTACT ME</a>
+              <a class="nav-link scroll-link" href="#gallery">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll-link" href="#contactMe">CONTACT ME</a>
             </li>
           </ul>
         </div>
       </div>
+      <!--End Of Navigatoin Menu-->
     </nav>
 
+    <!--HOME PAGE-->
+    <div class="top-content" id="home">
+      <!--Main Content-->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8 offset-md-2 text ml-auto mr-auto wow fadeInDown" id="top-body">
+            <img class="img-responsive" src="assets/images/timring.jpg" id="owners-image">
+          </div>            
+          <div class="col-12 col-lg-8 offset-md-2 text ml-auto mr-auto" id="bottom-body">
+            <div class="description wow fadeInLeftBig">
+            <pid="hi">hi I am</p>
+            </div>
+            <h1 class="description wow fadeInRightBig">Timring</h1>
+            <div class="description wow fadeInLeftBig">
+              <a href="https://en.wikipedia.org/wiki/Software_engineer" id="job">software engineer</a>
+            </div>
+            <div class="top-big-link wow fadeInUp" id="personal-links">
+              <a class="btn btn-link1 mr-3" id="personal" href="#p" data-toggle="collapse">Personal<br> Summary</a>
+              <a class="btn btn-light btn-link2 ml-3 scroll-link" href="#d" data-toggle="collapse" id="decagon">                
+                Why I Applied To<br>
+                <img class="decagon-logo" src="assets/images/decagon-logo.jpg">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!--Personal Details-->
+      <div class="container-fluid">
+        <div class="row">
+          <!--Personal-->
+          <div class="collapse" id="p">
+            <div class="col-10 ml-auto mr-auto col-lg-4 mr-lg-auto ml-lg-0 card" id="personal-summary">
+              <div class="card-body">
+                <h3 class="card-title">Personal Summary</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolor id ratione accusantium sunt, veritatis unde quod ab rerum suscipit est maxime voluptates enim doloremque eveniet voluptatem tempora ea earum!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Decagon-->
+          <div class="collapse" id="d">
+            <div class="col-10 ml-auto mr-auto col-lg-4 ml-lg-auto mr-lg-0 card" id="why-decagon">
+              <div class="card-body">
+                <h3 class="card-title">Why I Applied To<br><img class="decagon-logo" src="assets/images/decagon-logo.jpg"></h3>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, veritatis error culpa molestiae rem facere, consequatur doloremque eius quos atque voluptates omnis fuga natus. Animi mollitia quae aspernatur a nisi?
+                </p>
+                <div class="card-footer">
+                  <p class="text-muted"><a class="text-muted" href="http://www.decagonhq.com" id="decagon-site">decagon website</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Of Home Page-->
+    </div>
 
+    <!--ABOUT ME PAGE-->
+    <div class="about-us-container section-container section-container-gray-bg">
+      <div class="container">
+        <div class="row">
+      
+          <!--About Me 1-->
+          <div class="col-12 col-lg-6 about-us-box wow fadeInLeft">
+            <div class="about-us-box-text">
+              <h3>About Me</h3>
+              <p class="medium-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam unde quasi accusantium aut, doloribus cumque, eos nihil quos, deserunt ducimus consectetur quod laborum? Quibusdam animi vero repellendus exercitationem labore sunt!
+              </p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur id perspiciatis officiis repellendus nesciunt! Est, accusantium? Veniam voluptatum cumque soluta magnam necessitatibus perferendis dolorum, sed adipisci, et quibusdam debitis iure.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit alias unde qui beatae nisi reiciendis sequi quod aliquam, incidunt recusandae omnis earum, ratione hic dolores voluptatem? Natus nihil at eos!
+              </p>
+            </div>
+          </div>
+      
+          <!--About Me 2-->
+          <div class="col-12 col-lg-6 about-us-box wow fadeInUp">
+            <div class="services-container section-container">
+              <div class="container-fluid">
+                <div class="row">
 
+                  <!--Skills-->
+                  <div class="col-6 services-box wow fadeInUp">
+                    <div class="row">
+                      <!--Icon-->
+                      <div class="col-md-4">
+                        <div class="services-box-icon">
+                          <i class="fas fa-magic"></i>
+                        </div>
+                      </div>
+                      <!--Content-->
+                      <div class="col-md-8">
+                        <h4>Web Design</h4>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Javascript</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
 
+                  <!--Education-->
+                  <div class="col-6 services-box wow fadeInUp">
+                    <div class="row">
+                      <!--Icon-->
+                      <div class="col-md-4">
+                        <div class="services-box-icon">
+                          <i class="fas fa-cog"></i>
+                        </div>
+                      </div>
+                      <!--Content-->
+                      <div class="col-md-8">
+                        <h4>Education</h4>
+                        <ul>
+                          <li>Primary School</li>
+                          <li>Secondary School</li>
+                          <li>University</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
 
+                  <!--Training-->
+                  <div class="col-6 services-box wow fadeInUp">
+                    <div class="row">
+                      <!--Icon-->
+                      <div class="col-md-4">
+                        <div class="services-box-icon">
+                          <i class="fas fa-google"></i>
+                        </div>
+                      </div>
+                      <!--Content-->
+                      <div class="col-md-8">
+                        <h4>Training</h4>
+                        <ul>
+                          <li>Decagon Bootcamp(September 2019)</li>
+                          <li>Networking Training</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+        </div>
+      </div>
+      <!--End Of About Me-->
+    </div>
 
+    <!--WORK/PORTFOLIO-->
+    <div class="portfolio-container section-container" id="portfolio">
+      <div class="container">
+        <!--Heading-->
+        <div class="row">
+          <div class="col portfolio section-description wow fadeIn">
+            <h3>My Portfolio</h3>
+            <p>
+              I've completed six projects since I started coding in 2019
+            </p>
+          </div>
+        </div>
+        <!--Projects-->
+        <div class="row">
+
+          <!--Pomodoro App-->
+          <div class="col-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+            <div class="portfolio-box-image">
+              <img src="assets/images/aboutMeBG.jpg" alt="" data-at2x="assets/images/aboutBG.jpg">
+            </div>
+            <h4><a href="https://timkwali.github.io/pomodoro/">Pomodoro App </a><i class="fas fa-angle-right"></i></h4>
+            <div class="portfolio-box-date"><i class="far fa-calender"></i> April 2019</div>
+            <p>
+              An app for working more efficiently using the <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro technique</a>.
+            </p>
+          </div>
+                    
+          <!--Etch A Sketch-->
+          <div class="col-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+              <div class="portfolio-box-image">
+                <img src="assets/images/aboutMeBG.jpg" alt="" data-at2x="assets/images/aboutBG.jpg">
+              </div>
+              <h4><a href="https://timkwali.github.io/etch_a_sketch/">Etch A Sketch </a><i class="fas fa-angle-right"></i></h4>
+              <div class="portfolio-box-date"><i class="far fa-calender"></i> March 2019</div>
+              <p>
+                An <a href="https://en.wikipedia.org/wiki/Etch_A_Sketch">etch a sketch</a> game for children
+              </p>
+            </div>
+                      
+          <!--Calculator-->
+          <div class="col-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+              <div class="portfolio-box-image">
+                <img src="assets/images/aboutMeBG.jpg" alt="" data-at2x="assets/images/aboutBG.jpg">
+              </div>
+              <h4><a href="https://timkwali.github.io/calculator/">Calculator </a><i class="fas fa-angle-right"></i></h4>
+              <div class="portfolio-box-date"><i class="far fa-calender"></i> April 2019</div>
+              <p>
+                A simple Calculator app.
+              </p>
+            </div>
+                      
+          <!--Rock Paper Scissors Game-->
+          <div class="col-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+              <div class="portfolio-box-image">
+                <img src="assets/images/aboutMeBG.jpg" alt="" data-at2x="assets/images/aboutBG.jpg">
+              </div>
+              <h4><a href="https://timkwali.github.io/Rock-Paper-Scissors/">Rock Paper Scissors </a><i class="fas fa-angle-right"></i></h4>
+              <div class="portfolio-box-date"><i class="far fa-calender"></i> April 2019</div>
+              <p>
+                A simple game of <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors">Rock Paper Scissors</a>.
+              </p>
+            </div>
+                      
+          <!--Online Voting System-->
+          <div class="col-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+              <div class="portfolio-box-image">
+                <img src="assets/images/aboutMeBG.jpg" alt="" data-at2x="assets/images/aboutBG.jpg">
+              </div>
+              <h4><a href="#">Online Voting System </a><i class="fas fa-angle-right"></i></h4>
+              <div class="portfolio-box-date"><i class="far fa-calender"></i> September 2019</div>
+              <p>
+                An electronic means of carrying out elections.
+              </p>
+            </div>
+                      
+          <!--My portfolio website-->
+          <div class="col-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+              <div class="portfolio-box-image">
+                <img src="assets/images/aboutMeBG.jpg" alt="" data-at2x="assets/images/aboutBG.jpg">
+              </div>
+              <h4><a href="#">My Website </a><i class="fas fa-angle-right"></i></h4>
+              <div class="portfolio-box-date"><i class="far fa-calender"></i> January 2020</div>
+              <p>
+                My portfolio website
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -77,5 +334,7 @@
     <script src="assets/js/retina-1.1.0.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/script.js"></script>
+
   </body>
 </html>
