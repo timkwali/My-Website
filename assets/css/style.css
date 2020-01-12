@@ -111,8 +111,20 @@ h1, h2 {
 
 #owners-image {
   height: 100%;
-  border: 1px solid yellowgreen;
   border-radius: 50%;
+  -o-transition: all .8s;
+  -moz-transition: all .8s;
+  -webkit-transition: all .8s;
+  -ms-transition: all .8s;
+  transition: all .8s;
+}
+
+#owners-image:hover {
+  -o-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 /*lower body*/
