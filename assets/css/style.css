@@ -381,3 +381,7 @@ h1, h2 {
 #socialLinks a:hover {
   color: yellowgreen !important;
 }
+
+#toTop {
+  color: rgba(250, 244, 244, 0.5);
+}
