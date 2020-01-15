@@ -356,3 +356,28 @@ h1, h2 {
   padding-right: 5px;
   color: #ddd;
 }
+
+/***CONTACT ME***/
+#contactMe {
+  margin-top: 100px;
+}
+
+#social {
+  height: 150px;
+  margin-top: 50px;
+}
+
+#social p {
+  font-size: 150%;
+}
+
+#socialLinks a {
+  color: white !important;
+  font-size: 150%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#socialLinks a:hover {
+  color: yellowgreen !important;
+}

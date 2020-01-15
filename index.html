@@ -61,9 +61,6 @@
               <a class="nav-link scroll-link" href="#work">WORK</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link scroll-link" href="#gallery">GALLERY</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link scroll-link" href="#contactMe">CONTACT ME</a>
             </li>
           </ul>
@@ -326,7 +323,7 @@
       <div class="container">
 
         <!--Heading-->
-        <div class="row">
+        <div class="row mb-3">
           <div class="col blog section-description wow fadeIn">
               <h3>Get In Touch</h3>
               <div class="divider-1 wow fadeInUp"><span></span></div>
@@ -337,24 +334,41 @@
         <div class="row">
           <form class="col-12">
             <div class="row">
-              <div class="col-12 col-sm-6">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name">
+              <div class="col-12 col-sm-6 form-group">
+                <input class="form-control" type="text" name="name" id="name" placeholder="Name">
                 <span class="helper-text"></span>
               </div>
-              <div class="col-12 col-sm-6">
-                  <label for="email">Email</label>
-                  <input type="email" name="email" id="email">
-                  <span class="helper-text"></span>
-                </div>
+              <div class="col-12 col-sm-6 form-group">
+                <input class="form-control" type="email" name="email" id="email" placeholder="Email">
+                <span class="helper-text"></span>
+              </div>
+              <div class="col-12 col-sm-6 form-group">
+                <input class="form-control" type="text" name="website" id="website" placeholder="Website">
+                <span class="helper-text"></span>
+              </div>
+              <div class="col-12 col-sm-6 form-group">
+                <input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
+                <span class="helper-text"></span>
+              </div>
+              <div class="col-12 form-group">
+                <textarea class="col-12" id="message" rows="10" cols="40" placeholder="enter message here"></textarea>
+              </div>
             </div>
+            <button class="btn btn-success mr-auto">SEND</button>
           </form>
         </div>
 
         <!--Footer-->
-        <div class="row">
-
-        </div>
+        <footer class="row bg-dark" id="social">
+          <p class="ml-auto mr-auto mt-4 font-weight-bold">Follow me on social media</p>
+          <div class="col-12" id="socialLinks">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </footer>
       </div>
     <!--End Of Contact Me-->
     </div>
