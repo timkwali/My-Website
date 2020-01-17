@@ -26,14 +26,14 @@
         background: url(assets/images/decagon-logo.jpg) left center no-repeat;
       }
        
-      /*
-      .portfolio-container {
-        background: url(assets/images/portfolioBG.png) no-repeat center center fixed; 
+      
+      #contactMe {
+        background: url(assets/images/contactMeBG.png) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-      } */
+      } 
 
       .portfolio-container {
         background: rgba(170, 226, 226, 0.2);
@@ -130,7 +130,7 @@
     </div>
 
     <!--ABOUT ME PAGE-->
-    <div class="about-us-container section-container section-container-gray-bg">
+    <div class="about-us-container section-container section-container-gray-bg" id="aboutMe">
       <div class="container">
         <div class="row">
       
@@ -228,7 +228,7 @@
     </div>
 
     <!--WORK/PORTFOLIO-->
-    <div class="portfolio-container section-container" id="portfolio">
+    <div class="portfolio-container section-container" id="work">
       <div class="container">
         <!--Heading-->
         <div class="row">
@@ -243,7 +243,7 @@
         <div class="row">
 
           <!--Pomodoro App-->
-          <div class="col-12 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
             <div class="portfolio-box-image">
               <img src="assets/images/projects/pomodoro.png" alt="" data-at2x="assets/images/aboutBG.jpg">
             </div>
@@ -255,7 +255,7 @@
           </div>
                     
           <!--Etch A Sketch-->
-          <div class="col-12 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
               <div class="portfolio-box-image">
                 <img src="assets/images/projects/etch a sketch.png" alt="" data-at2x="assets/images/aboutBG.jpg">
               </div>
@@ -267,7 +267,7 @@
             </div>
                       
           <!--Calculator-->
-          <div class="col-12 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
               <div class="portfolio-box-image">
                 <img src="assets/images/projects/calculator.png" alt="" data-at2x="assets/images/aboutBG.jpg">
               </div>
@@ -279,7 +279,7 @@
             </div>
                       
           <!--Rock Paper Scissors Game-->
-          <div class="col-12 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
               <div class="portfolio-box-image">
                 <img src="assets/images/projects/rock paper scissors.png" alt="" data-at2x="assets/images/aboutBG.jpg">
               </div>
@@ -291,7 +291,7 @@
             </div>
                       
           <!--Online Voting System-->
-          <div class="col-12 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
               <div class="portfolio-box-image">
                 <img src="assets/images/aboutMeBG.jpg" alt="" data-at2x="assets/images/aboutBG.jpg">
               </div>
@@ -303,7 +303,7 @@
             </div>
                       
           <!--My portfolio website-->
-          <div class="col-12 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 portfolio-box wow fadeInUp">
               <div class="portfolio-box-image">
                 <img src="assets/images/aboutMeBG.jpg" alt="" data-at2x="assets/images/aboutBG.jpg">
               </div>
@@ -325,7 +325,7 @@
         <!--Heading-->
         <div class="row mb-3">
           <div class="col blog section-description wow fadeIn">
-              <h3>Get In Touch</h3>
+              <h3 id="contactMeHeader">Get In Touch</h3>
               <div class="divider-1 wow fadeInUp"><span></span></div>
           </div>
         </div>
@@ -351,7 +351,7 @@
                 <span class="helper-text"></span>
               </div>
               <div class="col-12 form-group">
-                <textarea class="col-12" id="message" rows="10" cols="40" placeholder="enter message here"></textarea>
+                <textarea class="col-12" id="message" rows="10" cols="40" placeholder="Message"></textarea>
               </div>
             </div>
             <button class="btn btn-success mr-auto">SEND</button>

@@ -1,9 +1,8 @@
 jQuery(document).ready(function() {
   function scroll_to(clicked_link, nav_height) {
-    var element_class = clicked_link.attr("href").replace("#", ".");
+    var element_class = clicked_link.attr("href");
     var scroll_to = 0;
-    if(element_class != ".home") {
-      element_class += ".-container";
+    if(element_class != "#home") {
       scroll_to = $(element_class).offset().top - nav_height;
     }
     if($(window).scrollTop() != scroll_to) {
