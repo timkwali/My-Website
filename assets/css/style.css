@@ -68,6 +68,8 @@ h1, h2 {
 .navbar-expand-md .navbar-nav .nav-link {
   padding-left: 1rem;
   padding-right: 1rem;
+  font-weight: bold;
+  font-size: 110%;
 }
 
 .navbar-brand {
